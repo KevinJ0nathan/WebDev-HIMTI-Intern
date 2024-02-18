@@ -416,6 +416,18 @@ body{
     align-items: center;
     flex-direction: column;
    }
+
+   .pill-container {
+    width:  80%; 
+}
+
+.email-input {
+    padding:  5px; 
+}
+
+.submit-button {
+    padding:  10px  30px; 
+}
 }
 
   
