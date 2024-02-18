@@ -211,12 +211,14 @@ body{
     font-weight: 500;
     color: white;
     letter-spacing: 10px;
+    text-align: center;
 }
 
 .contactus-subheading{
     font-weight: 400;
     font-size: 24px;
     color: white;
+    text-align: center;
 }
 
 .pill-container {
