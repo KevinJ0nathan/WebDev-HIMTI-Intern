@@ -241,6 +241,7 @@ body{
     border: none;
     padding:  15px  50px;
     cursor: pointer;
+    text-align: center;
   }
 
   .contactperson-container{
@@ -420,7 +421,11 @@ body{
    }
 
    .pill-container {
-    width:  80%; 
+    width:  90%; 
+}
+
+.email-input, .submit-button {
+  flex-basis:  30%; 
 }
 
 .email-input {
