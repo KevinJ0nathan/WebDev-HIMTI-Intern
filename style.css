@@ -28,7 +28,7 @@ body{
     margin-right: 70px;
 }
 
-.nav-item a{
+.nav-item a,.nav-item i{
     color: white;
     font-weight: 400;
     font-size: 30px;
