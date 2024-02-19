@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="registrationstyles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>HIMTI Study Tour Registration</title>
+</head>
+<body>
+    <div class="registration-container">
+        <h1>HIMTI Study Tour Registration</h1>
+        <form id="registrationForm" action="index.html">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="event">Select Event</label>
+            <select id="event" name="event">
+                <option value="event1">Google Indonesia</option>
+                <option value="event2">Tokopedia Indonesia</option>
+                <option value="event3">Apple Indonesia</option>
+            </select>
+            
+            <button class="register-button">Register</button>
+        </form>
+
+        <a href="index.html" class="back-button"><i class="bi bi-box-arrow-left"></i></a>
+    </div>
+</body>
+</html>
