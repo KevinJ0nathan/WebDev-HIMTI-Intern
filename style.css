@@ -158,6 +158,10 @@ body{
     margin-top: 30px;
 }
 
+.register-now-button:hover {
+  background-color: #2A3E5E;
+}
+
 .card-text{
     display: flex;
     flex-direction: column;
